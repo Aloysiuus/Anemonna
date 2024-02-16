@@ -1,0 +1,92 @@
+body {
+    font-size: 20px;
+    background-color: #FFFFFF;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*字符间距*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #4169E1;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    /*letter-spacing:;    字符间距*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: #4169E1;
+    text-align: left;
+    text-decoration: overline;
+    text-transform: capitalize;
+    /*letter-spacing:;    字符间距*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.name {
+    color: #4169E1;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    /*字符间距*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.menu {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: #4169E1;
+    text-decoration: none;
+    /* 未访问链接*/
+}
+
+a:visited {
+    color: #800000;
+    text-decoration: none;
+    /* 已访问链接 */
+}
+
+a:hover {
+    color: #4169E1;
+    text-decoration: underline;
+    /* 鼠标移动到链接上 */
+}
+
+a:active {
+    color: #4169E1;
+    text-decoration: underline;
+    /* 鼠标点击时 */
+}
+
+img {
+    float: left;
+}
+
+hr.hr-double {
+    border: 0;
+    border-top: 3px double #888888;
+}
+
+ol.experience {
+    line-height: 150%;
+    position: relative;
+    right: -30px;
+}
